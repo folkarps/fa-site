@@ -1,0 +1,13 @@
+version: "3.8"
+
+services:
+  client:
+    build:
+      context: .
+      target: client-install
+    command: npm run dev
+    volumes:
+      - ./:/client
+    restart: always
+    ports:
+      - "8080:8080"
