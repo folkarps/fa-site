@@ -1,0 +1,25 @@
+backend:
+  name: git-gateway
+  branch: main
+publish_mode: editorial_workflow
+media_folder: 'static/uploads'
+public_folder: '/uploads'
+collections:
+  - name: 'tab'
+    label: 'Tabs'
+    folder: 'content/tabs'
+    create: false
+    slug: '{{slug}}'
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+  - name: 'dispatch'
+    label: 'Dispatches'
+    folder: 'content/dispatches'
+    create: true
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Posted', name: 'date', widget: 'datetime' }
+      - { label: 'Feature Image', name: 'thumbnail', widget: 'image' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
