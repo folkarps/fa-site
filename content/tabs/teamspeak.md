@@ -5,7 +5,9 @@ title: "Teamspeak"
 
 OK, I got the latest Teamspeak 3 from the [website](http://www.teamspeak.com/downloads), and have it installed and launched.
 
-Go to "connect" and use these details:
+<v-btn block color="primary" href="ts3server://server.folkarps.com?port=9988&password=freedom"><v-icon>mdi-headset</v-icon> Connect to the Folk ARPS Teamspeak</v-btn><br/>
+
+Alternatively use these details:
 
 - Address: server.folkarps.com:9988 (note: the domain and port go together)
 - Password: freedom
