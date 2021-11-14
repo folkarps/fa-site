@@ -1,28 +1,27 @@
 # Folk ARPS website
 
-This site uses nuxt and vuetify. Server side rendering is used to improve search engine optimisation.
+This is the new (2021) Folk ARPS site which uses nuxt and vuetify.
 
 ## Editing 
 
-Markdown files are stored in `content/`
+Markdown content files are stored in `content/`
 
-More documentation here...
+The easiest way ot edit the site is to use Netlify CMS which can be accessed via `/admin` on the site.
 
 ## Development
 
-```bash
-# install dependencies
-$ npm install
+The site can be run in a docker container for development
 
-# serve with hot reload at localhost:3000
-$ npm run dev
+``` docker-compose up --build ```
 
-# build for production and launch server
-$ npm run build
-$ npm run start
+Once started the site will be available on `http://localhost:8080` and will auto-relocated changes.
 
-# generate static project
-$ npm run generate
+Static output files/content can be manually generated with:
+```
+npm install
+npm run generate
 ```
 
-Add something about docker here...
+## Deployment
+
+Deployment is via continuous development using Netlify. Pushing changes to the main branch will update the site after a few minutes.
