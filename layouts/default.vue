@@ -19,18 +19,23 @@
         <v-btn
           href="https://www.folkarps.com/forum/"
           target="_blank"
-          icon
+          color="primary"
+          fab
+          large
           class="mr-1"
         >
-          <v-icon color="primary">mdi-forum</v-icon>
+          <v-icon color="black" x-large>mdi-forum</v-icon>
         </v-btn>
         <v-btn
           href="http://www.discord.gg/0Z8wIyiaekveqtZ4"
           target="_blank"
-          icon
+          color="blue"
+          fab
+          large
+          light
           class="mr-1"
         >
-          <v-icon color="blue">mdi-discord</v-icon>
+          <v-icon x-large>mdi-discord</v-icon>
         </v-btn>
         <v-btn @click="drawer = !drawer" v-if="!showTabs" icon>
           <v-icon>mdi-menu</v-icon>
@@ -59,6 +64,17 @@
         </v-list-item>
       </v-list>
     </v-navigation-drawer>
+    <script>
+      if (window.netlifyIdentity) {
+        window.netlifyIdentity.on('init', (user) => {
+          if (!user) {
+            window.netlifyIdentity.on('login', () => {
+              document.location.href = '/admin/'
+            })
+          }
+        })
+      }
+    </script>
   </v-app>
 </template>
 
@@ -72,7 +88,7 @@ export default {
         { text: 'Welcome', to: '/' },
         { text: 'Conduct', to: '/conduct' },
         { text: 'Sessions', to: '/session' },
-        { text: 'Mods', to: '/mods' },
+        { text: 'Optional Mods', to: '/mods' },
         { text: 'Teamspeak', to: '/teamspeak' },
       ],
     }

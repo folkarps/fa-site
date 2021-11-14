@@ -37,10 +37,6 @@ export default {
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
   ],
-  
-  router: {
-    base: '/fa-site/'
-  },
 
   // Content module configuration: https://go.nuxtjs.dev/config-content
   content: {},

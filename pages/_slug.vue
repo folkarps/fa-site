@@ -1,5 +1,5 @@
 <template>
-  <v-container>
+  <v-container style="max-width: 800px">
     <nuxt-content :document="page" />
   </v-container>
 </template>
@@ -19,7 +19,7 @@ export default {
   },
   head() {
     return {
-      title: this.title,
+      title: this.page.title,
     }
   },
 }

@@ -1,10 +1,11 @@
 <template>
   <div>
     <v-img
-      src="https://arma3.com/assets/img/screenshots/large/arma3_screenshot_01.jpg"
+      :src="'banners/' + timedBanner + '.png'"
       max-height="200"
+      class="banner"
     ></v-img>
-    <v-container>
+    <v-container style="max-width: 800px">
       <nuxt-content :document="page" />
     </v-container>
     <div style="margin: 10px auto; max-width: 600px">
@@ -30,6 +31,17 @@ export default {
     return {
       title: 'Welcome',
     }
+  },
+  data: function () {
+    return {
+      images: ['dawn', 'morning', 'afternoon', 'evening', 'night'],
+    }
+  },
+  computed: {
+    timedBanner: function () {
+      // Show random image
+      return this.images[Math.floor(Math.random() * this.images.length)]
+    },
   },
 }
 </script>

@@ -1,3 +1,6 @@
+---
+title: "Session"
+---
 # Playing with FA is simple, comrade!
 
 Folk ARPS Arma 3 sessions are held every Sunday at 19:20 UK time.

@@ -1,3 +1,6 @@
+---
+title: "Conduct"
+---
 # A friendly game is a fun game, comrade!
 
 At Folk ARPS we try to make sure the only source of stress is the enemy IFV shooting at you. That means being respectful to your comrades and not starting unpleasant arguments. Please don’t engage in bigotry, hatred, or harassment - in-game or out-of-game. Be cooperative with fellow guests, not antagonistic.

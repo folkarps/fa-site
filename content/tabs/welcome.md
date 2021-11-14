@@ -1,3 +1,6 @@
+---
+title: "Welcome"
+---
 # Welcome to Folk ARPS, comrade!
 
 Over a decade of Arma 3 and Arma 2, Folk ARPS has provided a friendly, cooperative environment for players to enjoy low-hassle Arma. No mandatory attendance, no spending 5 hours setting up arcane modlists, no out-of-game ranks or bureaucracy - just show up and have a good time.
