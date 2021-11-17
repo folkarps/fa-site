@@ -1,7 +1,8 @@
 ---
-title: "Conduct"
+title: 'Conduct'
 ---
-# A friendly game is a fun game, comrade!
+
+# A friendly game is a fun game
 
 At Folk ARPS we try to make sure the only source of stress is the enemy IFV shooting at you. That means being respectful to your comrades and not starting unpleasant arguments. Please don’t engage in bigotry, hatred, or harassment - in-game or out-of-game. Be cooperative with fellow guests, not antagonistic.
 
@@ -9,4 +10,4 @@ FA aims to be inclusive of all Arma players, old and new, regardless of race, ge
 
 Please bear in mind that Arma 3 is a team game. Listen to the host and your team leader and work with your squadmates to achieve victory!
 
-The host team reserves the right to take actions necessary to ensure a safe and enjoyable environment for guests. Please listen to hosts and remember that we’re trying to facilitate a good time for everyone.
+The host team reserves the right to take actions necessary to ensure a safe and enjoyable environment for guests. Please remember that we’re trying to facilitate a good time for everyone.

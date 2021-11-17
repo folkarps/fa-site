@@ -1,24 +1,18 @@
 ---
-title: "Teamspeak"
+title: 'Teamspeak'
 ---
-# How to communicate with us, comrade!
 
-OK, I got the latest Teamspeak 3 from the [website](http://www.teamspeak.com/downloads), and have it installed and launched.
+# Voice comms and you
+
+If you don’t already have it, get the latest version of Teamspeak 3 from the [website](https://www.teamspeak.com/downloads), and install it. The connection address is: server.folkarps.com:9988 (note: the domain and port go together). The password is ‘freedom’.
+
+For the session, you're going to start with "Limbo (Slotting/Dead)". When you've just arrived, hang out there. When the mission starts, everyone will move to the appropriate side channel family (BLUFOR/OPFOR/INDFOR). Further channel split will be handled by the CO. When the mission ends (either for everyone or just for you) return to Limbo, and wait for the next mission.
 
 <v-btn block color="primary" href="ts3server://server.folkarps.com?port=9988&password=freedom"><v-icon>mdi-headset</v-icon> Connect to the Folk ARPS Teamspeak</v-btn><br/>
 
-Alternatively use these details:
+## Channel Commander
 
-- Address: server.folkarps.com:9988 (note: the domain and port go together)
-- Password: freedom
-
-### I'm connected. Which channel should I go to?
-
-For the session, you're going to start with "Limbo (Slotting/Dead)". When you've just arrived, hang out there. When the mission starts, everyone will move to the appropriate side channel family (BLUFOR/OPFOR/INDFOR). Further channel split will be handled by the CO. When the mission ends (either for everyone or just for you) return to limbo, and wait for the next mission.
-
-### What about Channel Commander?
-
-CC is a TeamSpeak feature that lets you talk to people "over the fence" of your channel. The setup we use is pretty straightforward:
+CC is a TeamSpeak feature that lets you talk to people "over the fence" of your channel. It is not mandatory, but it can sometimes prove useful to have it set up. The setup we use is pretty straightforward:
 
 - In TS3 go to Tools > Whisper Lists (Ctrl+Shift+W)
 - Click on New (in the bottom-left of the dialog)

@@ -1,7 +1,8 @@
 ---
-title: "Optional Mods"
+title: 'Optional Mods'
 ---
-# These tools may assist you in the revolution, comrade!
+
+# These tools may assist you in the revolution
 
 Mods listed below are not required, but can be used. You can choose to use all, some, or none of them. Mods not listed below cannot be used, as the server runs a whitelist, and will not let you connect.
 

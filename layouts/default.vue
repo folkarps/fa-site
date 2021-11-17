@@ -2,18 +2,27 @@
   <v-app class="sunbeam">
     <v-container class="pa-0" style="max-width: 1200px">
       <v-toolbar color="black" height="80" dark>
-        <v-img class="ma-2" max-width="204" src="img/logo.png" contain></v-img>
-
         <v-tabs v-if="showTabs">
-          <v-tab
-            v-for="item in tabs"
-            :key="item.text"
-            :to="item.to"
-            nuxt
-            class="russian"
-          >
-            {{ item.text }}
-          </v-tab>
+          <v-tab to="/" nuxt
+            ><v-img
+              class="ma-2"
+              max-width="204"
+              src="img/logo.png"
+              contain
+            ></v-img
+          ></v-tab>
+
+          <template v-if="showTabs">
+            <v-tab
+              v-for="item in tabs"
+              :key="item.text"
+              :to="item.to"
+              nuxt
+              class="russian"
+            >
+              {{ item.text }}
+            </v-tab>
+          </template>
         </v-tabs>
         <v-spacer />
         <v-btn
@@ -85,7 +94,6 @@ export default {
       title: 'FolkARPS',
       drawer: false,
       tabs: [
-        { text: 'Welcome', to: '/' },
         { text: 'Conduct', to: '/conduct' },
         { text: 'Sessions', to: '/session' },
         { text: 'Optional Mods', to: '/mods' },
