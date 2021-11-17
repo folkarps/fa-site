@@ -32,6 +32,7 @@
           fab
           large
           class="mr-1"
+          v-if="showTabs"
         >
           <v-icon color="black" x-large>mdi-forum</v-icon>
         </v-btn>
@@ -74,6 +75,11 @@
             <v-list-item-title class="russian">{{
               item.text
             }}</v-list-item-title>
+          </v-list-item-content>
+        </v-list-item>
+        <v-list-item href="https://www.folkarps.com/forum/">
+          <v-list-item-content>
+            <v-list-item-title class="russian">Forums</v-list-item-title>
           </v-list-item-content>
         </v-list-item>
       </v-list>
