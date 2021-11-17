@@ -32,15 +32,14 @@ export default {
       title: 'Welcome',
     }
   },
-  data: function () {
-    return {
-      images: ['dawn', 'morning', 'afternoon', 'evening', 'night'],
-    }
-  },
   computed: {
     timedBanner: function () {
-      // Show random image
-      return this.images[Math.floor(Math.random() * this.images.length)]
+      const hours = new Date().getHours()
+      if (hours > 21 && hours < 5) return 'night'
+      else if (hours < 8) return 'dawn'
+      else if (hours < 12) return 'morning'
+      else if (hours < 18) return 'afternoon'
+      else return 'evening'
     },
   },
 }
