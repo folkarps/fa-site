@@ -46,13 +46,6 @@ export default {
 </script>
 
 <style>
-@font-face {
-  font-family: 'russian';
-  src: url('assets/russian.ttf');
-}
-h1 {
-  font-family: russian, sans-serif;
-}
 .video-container {
   position: relative;
   padding-bottom: 56.25%;

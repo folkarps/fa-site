@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'russian';
+  src: url('assets/russian.ttf');
+}
+h1 {
+  font-family: russian, sans-serif;
+}
+.russian {
+  font-family: russian, sans-serif;
+  font-size: 1.1rem !important;
+}

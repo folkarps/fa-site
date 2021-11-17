@@ -117,12 +117,4 @@ export default {
 .page {
   background-color: #ffe3bf;
 }
-@font-face {
-  font-family: 'russian';
-  src: url('assets/russian.ttf');
-}
-.russian {
-  font-family: russian, sans-serif;
-  font-size: 1.1rem;
-}
 </style>
