@@ -2,7 +2,7 @@
   <v-app class="sunbeam">
     <v-container class="pa-0" style="max-width: 1200px">
       <v-toolbar color="black" height="80" dark>
-        <v-tabs v-if="showTabs">
+        <v-tabs>
           <v-tab to="/" nuxt
             ><v-img
               class="ma-2"
@@ -46,7 +46,7 @@
         >
           <v-icon x-large>mdi-discord</v-icon>
         </v-btn>
-        <v-btn @click="drawer = !drawer" v-if="!showTabs" icon>
+        <v-btn @click="drawer = !drawer" v-if="!showTabs" fab large icon>
           <v-icon>mdi-menu</v-icon>
         </v-btn>
       </v-toolbar>
@@ -56,8 +56,13 @@
       </v-main>
     </v-container>
 
-    <v-navigation-drawer v-model="drawer" absolute right v-if="!showTabs" dark>
+    <v-navigation-drawer v-model="drawer" absolute left temporary dark>
       <v-list dense nav>
+        <v-list-item to="/" nuxt>
+          <v-list-item-content>
+            <v-list-item-title class="russian">Welcome</v-list-item-title>
+          </v-list-item-content>
+        </v-list-item>
         <v-list-item
           v-for="item in tabs"
           :key="item.text"
@@ -94,8 +99,8 @@ export default {
       title: 'FolkARPS',
       drawer: false,
       tabs: [
-        { text: 'Conduct', to: '/conduct' },
         { text: 'Sessions', to: '/session' },
+        { text: 'Conduct', to: '/conduct' },
         { text: 'Optional Mods', to: '/mods' },
         { text: 'Teamspeak', to: '/teamspeak' },
       ],
