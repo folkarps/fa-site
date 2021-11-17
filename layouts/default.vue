@@ -8,6 +8,7 @@
               class="ma-2"
               max-width="204"
               src="img/logo.png"
+              alt=""
               contain
             ></v-img
           ></v-tab>
@@ -28,26 +29,37 @@
         <v-btn
           href="https://www.folkarps.com/forum/"
           target="_blank"
+          rel="noreferrer"
           color="primary"
           fab
           large
           class="mr-1"
           v-if="showTabs"
+          aria-label="Forums"
         >
           <v-icon color="black" x-large>mdi-forum</v-icon>
         </v-btn>
         <v-btn
           href="http://www.discord.gg/0Z8wIyiaekveqtZ4"
           target="_blank"
+          rel="noreferrer"
           color="blue"
           fab
           large
           light
           class="mr-1"
+          aria-label="Discord"
         >
           <v-icon x-large>mdi-discord</v-icon>
         </v-btn>
-        <v-btn @click="drawer = !drawer" v-if="!showTabs" fab large icon>
+        <v-btn
+          @click="drawer = !drawer"
+          v-if="!showTabs"
+          fab
+          large
+          icon
+          aria-label="Menu"
+        >
           <v-icon>mdi-menu</v-icon>
         </v-btn>
       </v-toolbar>

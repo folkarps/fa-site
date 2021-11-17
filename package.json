@@ -4,15 +4,17 @@
   "private": true,
   "scripts": {
     "dev": "nuxt",
-    "build": "nuxt build",
+    "build": "nuxt build --modern",
     "start": "nuxt start",
-    "generate": "nuxt generate"
+    "generate": "nuxt generate --modern"
   },
   "dependencies": {
-    "@nuxt/content": "^1.14.0",
+    "@fontsource/roboto": "^4.5.1",
+    "@mdi/font": "^6.5.95",
+    "@nuxt/content": "^1.15.1",
     "core-js": "^3.15.1",
     "nuxt": "^2.15.7",
-    "vuetify": "^2.5.5"
+    "vuetify": "^2.6.0"
   },
   "devDependencies": {
     "@nuxtjs/vuetify": "^1.12.1",

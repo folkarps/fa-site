@@ -15,23 +15,27 @@ export default {
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },
-  css: ['~/assets/style'],
+  css: [
+    '~/assets/style',
+    '@mdi/font/css/materialdesignicons.css',
+    '@fontsource/roboto/400.css',
+    '@fontsource/roboto/500.css',
+    '@fontsource/roboto/700.css',
+  ],
+
   plugins: [],
   components: true,
-  buildModules: [
-    '@nuxtjs/vuetify',
-  ],
-  modules: [
-    '@nuxt/content',
-  ],
+  buildModules: ['@nuxtjs/vuetify'],
+  modules: ['@nuxt/content'],
   content: {},
   vuetify: {
+    defaultAssets: false,
     customVariables: ['~/assets/variables.scss'],
     theme: {
       dark: false,
       themes: {
         light: {
-          primary: "#a9061a",
+          primary: '#a9061a',
           accent: colors.grey.darken3,
           secondary: colors.amber.darken3,
           info: colors.teal.lighten1,
@@ -40,7 +44,7 @@ export default {
           success: colors.green.accent3,
         },
         dark: {
-          primary: "#a9061a",
+          primary: '#a9061a',
           accent: colors.grey.darken3,
           secondary: colors.amber.darken3,
           info: colors.teal.lighten1,

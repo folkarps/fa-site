@@ -8,9 +8,10 @@
     <v-container style="max-width: 800px">
       <nuxt-content :document="page" />
     </v-container>
-    <div style="margin: 10px auto; max-width: 600px; padding-bottom: 50px;">
+    <div style="margin: 10px auto; max-width: 600px; padding-bottom: 50px">
       <div class="video-container">
         <iframe
+          title="Folk ARPS Feature Video"
           :src="'https://www.youtube.com/embed/' + 'e3ST3l1Booo' + '?rel=0'"
           allowFullScreen
         ></iframe>
