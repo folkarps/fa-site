@@ -2,7 +2,7 @@
   <div>
     <v-img
       :src="'banners/' + timedBanner + '.jpg'"
-      max-height="200"
+      max-height="300"
       class="banner"
     ></v-img>
     <v-container style="max-width: 800px">
