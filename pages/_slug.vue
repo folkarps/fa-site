@@ -1,7 +1,7 @@
 <template>
   <div>
     <v-img
-      :src="'banners/' + randomBannerTop + '.jpg'"
+      :src="'/banners/' + randomBannerTop + '.jpg'"
       max-height="300"
       class="banner"
     ></v-img>
@@ -9,7 +9,7 @@
       <nuxt-content :document="page" />
     </v-container>
     <v-img
-      :src="'banners/' + randomBannerBottom + '.jpg'"
+      :src="'/banners/' + randomBannerBottom + '.jpg'"
       max-height="300"
       class="banner"
     ></v-img>

@@ -1,7 +1,7 @@
 <template>
   <div>
     <v-img
-      :src="'banners/' + timedBanner + '.jpg'"
+      :src="'/banners/' + timedBanner + '.jpg'"
       max-height="300"
       class="banner"
     ></v-img>
