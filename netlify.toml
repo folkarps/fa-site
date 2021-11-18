@@ -1,11 +1,23 @@
 [[redirects]]
 force = true
-from = " /forum"
+from = "/forum"
 status = 200
 to = "https://forums.folkarps.com/"
 
 [[redirects]]
 force = true
-from = " /forum/*"
+from = "/forum/*"
 status = 200
 to = "https://forums.folkarps.com/:splat"
+
+[[redirects]]
+force = true
+from = "/store/store.php"
+status = 200
+to = "/donate"
+
+[[redirects]]
+force = true
+from = "/donate/donate.html"
+status = 200
+to = "/donate"
