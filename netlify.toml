@@ -1,5 +1,0 @@
-[[redirects]]
-  from = " /forum/*"
-  to = "https://forums.folkarps.com/:splat"
-  status = 301
-  force = true
