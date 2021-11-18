@@ -27,7 +27,7 @@
         </v-tabs>
         <v-spacer />
         <v-btn
-          href="https://www.folkarps.com/forum/"
+          href="https://forum.folkarps.com/"
           target="_blank"
           rel="noreferrer"
           color="primary"
@@ -89,7 +89,7 @@
             }}</v-list-item-title>
           </v-list-item-content>
         </v-list-item>
-        <v-list-item href="https://www.folkarps.com/forum/">
+        <v-list-item href="https://forum.folkarps.com/">
           <v-list-item-content>
             <v-list-item-title class="russian">Forums</v-list-item-title>
           </v-list-item-content>
