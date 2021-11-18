@@ -7,7 +7,7 @@
             ><v-img
               class="ma-2"
               max-width="204"
-              src="img/logo.png"
+              src="/img/logo.png"
               alt=""
               contain
             ></v-img
@@ -96,17 +96,6 @@
         </v-list-item>
       </v-list>
     </v-navigation-drawer>
-    <script>
-      if (window.netlifyIdentity) {
-        window.netlifyIdentity.on('init', (user) => {
-          if (!user) {
-            window.netlifyIdentity.on('login', () => {
-              document.location.href = '/admin/'
-            })
-          }
-        })
-      }
-    </script>
   </v-app>
 </template>
 
