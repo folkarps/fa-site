@@ -1,0 +1,11 @@
+[[redirects]]
+force = true
+from = " /forum"
+status = 200
+to = "https://forums.folkarps.com/"
+
+[[redirects]]
+force = true
+from = " /forum/*"
+status = 200
+to = "https://forums.folkarps.com/:splat"
