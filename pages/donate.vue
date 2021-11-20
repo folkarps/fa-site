@@ -1,6 +1,6 @@
 <template>
   <div>
-    <v-img src="/banners/donate.jpg" max-height="300" class="banner"></v-img>
+    <v-img src="/img/banners/donate.jpg" max-height="300" class="banner"></v-img>
     <v-container style="max-width: 800px">
       <h1>Server Donation</h1>
       <p>Help us keep the server chugging along.</p>
