@@ -1,0 +1,23 @@
+[[redirects]]
+force = true
+from = "/forum"
+status = 301
+to = "https://forum.folkarps.com/"
+
+[[redirects]]
+force = true
+from = "/forum/*"
+status = 301
+to = "https://forum.folkarps.com/:splat"
+
+[[redirects]]
+force = true
+from = "/store/store.php"
+status = 301
+to = "/donate"
+
+[[redirects]]
+force = true
+from = "/donate/donate.html"
+status = 301
+to = "/donate"
