@@ -25,7 +25,10 @@ export default {
 
   plugins: [],
   components: true,
-  buildModules: ['@nuxtjs/vuetify'],
+  buildModules: ['@nuxtjs/vuetify', '@nuxtjs/google-analytics'],
+  googleAnalytics: {
+    id: 'G-2TH60K869J',
+  },
   modules: ['@nuxt/content'],
   content: {},
   vuetify: {
