@@ -8,7 +8,7 @@ If you don’t already have it, get the latest version of Teamspeak 3 from the [
 
 For the session, you're going to start with "Limbo (Slotting/Dead)". When you've just arrived, hang out there. When the mission starts, everyone will move to the appropriate side channel family (BLUFOR/OPFOR/INDFOR). Further channel split will be handled by the CO. When the mission ends (either for everyone or just for you) return to Limbo, and wait for the next mission.
 
-<v-btn block color="primary" href="ts3server://server.folkarps.com?port=9988&password=freedom"><v-icon>mdi-headset</v-icon> Connect to the Folk ARPS Teamspeak</v-btn><br/>
+<teamspeak-button></teamspeak-button><br />
 
 ## Channel Commander
 
