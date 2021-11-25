@@ -17,6 +17,7 @@
         ></iframe>
       </div>
     </div>
+    <random-banner></random-banner>
   </div>
 </template>
 
@@ -36,11 +37,12 @@ export default {
   computed: {
     timedBanner: function () {
       const hours = new Date().getHours()
-      if (hours > 21 && hours < 5) return 'night'
+      if (hours < 5) return 'night'
       else if (hours < 8) return 'dawn'
       else if (hours < 12) return 'morning'
       else if (hours < 18) return 'afternoon'
-      else return 'evening'
+      else if (hours < 22) return 'evening'
+      else return 'ambush'
     },
   },
 }

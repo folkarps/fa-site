@@ -1,18 +1,10 @@
 <template>
   <div>
-    <v-img
-      :src="'/img/banners/' + randomBannerTop + '.jpg'"
-      max-height="300"
-      class="banner"
-    ></v-img>
+    <random-banner></random-banner>
     <v-container style="max-width: 800px; padding-bottom: 50px">
       <nuxt-content :document="page" />
     </v-container>
-    <v-img
-      :src="'/img/banners/' + randomBannerBottom + '.jpg'"
-      max-height="300"
-      class="banner"
-    ></v-img>
+    <random-banner></random-banner>
   </div>
 </template>
 
@@ -21,19 +13,6 @@ export default {
   data() {
     return {
       title: 'FolkARPS',
-      images: [
-        'dawn',
-        'morning',
-        'afternoon',
-        'evening',
-        'night',
-        'donate',
-        'airtime',
-        'aquatank',
-        'bunny',
-        'field',
-        'waiting',
-      ],
     }
   },
   async asyncData({ params, $content }) {
@@ -46,16 +25,6 @@ export default {
     return {
       title: this.page.title,
     }
-  },
-  computed: {
-    randomBannerTop: function () {
-      // Show random image
-      return this.images[Math.floor(Math.random() * this.images.length)]
-    },
-    randomBannerBottom: function () {
-      // Show random image
-      return this.images[Math.floor(Math.random() * this.images.length)]
-    },
   },
 }
 </script>
