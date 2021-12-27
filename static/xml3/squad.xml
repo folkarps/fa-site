@@ -3,10 +3,10 @@
 <?xml-stylesheet href="squad.xsl?" type="text/xsl"?>
 <squad nick="FA">
 	<name>Folk ARPS</name>
-		<email>hosts@folkarps.com</email>
-		<web>www.folkarps.com</web>
-		<picture>fa_2015_512.paa</picture>
-		<title>Folk ARPS</title>
+	<email>hosts@folkarps.com</email>
+	<web>www.folkarps.com</web>
+	<picture>fa_2015_512.paa</picture>
+	<title>Folk ARPS</title>
 	<member id="76561198012169975" nick="audiox">
 		<name>audiox</name>
 		<email>hosts@folkarps.com</email>
@@ -48,7 +48,7 @@
 		<email>N/A</email>
 		<icq>N/A</icq>
 		<remark>Relax, I'm (possibly) a doctor</remark>
-   </member>
+	</member>
 	<member id="76561197975964276" nick="Fer">
 		<name>Fer</name>
 		<email>hosts@folkarps.com</email>
@@ -62,11 +62,11 @@
 		<remark>Attack those enemy buildings!</remark>
 	</member>
 	<member id="76561198008231270" nick="Grizzly">
-	    <name>Joshua</name>
-	    <email>N/A</email>
-	    <icq>N/A</icq>
-	    <remark>If you patrol the woods, you are in for a surprise today.</remark>
-   	</member>
+		<name>Joshua</name>
+		<email>N/A</email>
+		<icq>N/A</icq>
+		<remark>If you patrol the woods, you are in for a surprise today.</remark>
+	</member>
 	<member id="76561198000622372" nick="Halop">
 		<name>Halop</name>
 		<email>Smeogorl@gmail.com</email>
@@ -79,12 +79,12 @@
 		<icq>harakka_fi (Skype)</icq>
 		<remark>I'm not here to win any beauty contests - I'm here to kill people, on a budget.</remark>
 	</member>
-   	<member id="76561197975149309" nick="Head">
-	    <name>Head</name>
-	    <email>headswe92@gmail.com</email>
-	    <icq>Skype:headswe</icq>
-	    <remark>Senior Science Officer</remark>
-   	</member>
+	<member id="76561197975149309" nick="Head">
+		<name>Head</name>
+		<email>headswe92@gmail.com</email>
+		<icq>Skype:headswe</icq>
+		<remark>Senior Science Officer</remark>
+	</member>
 	<member id="76561197972356731" nick="Homercleese">
 		<name>Alan</name>
 		<email>alanwelldunne@gmail.com</email>
@@ -115,12 +115,12 @@
 		<icq>Pr3sario (Skype)</icq>
 		<remark>Be the best you can be, just don't be last</remark>
 	</member>
-    	<member id="76561198011407435" nick="Satire">
+	<member id="76561198011407435" nick="Satire">
 		<name>Satire</name>
 		<email>cwood686@gmail.com</email>
 		<icq>chris.wood686 (Skype)</icq>
 		<remark></remark>
-   	</member>
+	</member>
 	<member id="76561197991278130" nick="SuperU">
 		<name>SuperU</name>
 		<email>hosts@folkarps.com</email>
@@ -168,8 +168,8 @@
 		<email>mark.dennehy+FolkARPS@gmail.com</email>
 		<icq>N/A</icq>
 		<remark>Don't tell mom I'm a pilot, she thinks I play piano in a whorehouse</remark>
-   </member>
-   <member id="76561197967886612" nick="Freyja">
+	</member>
+	<member id="76561197967886612" nick="Freyja">
 		<name>Freyja</name>
 		<email>server-fund@folkarps.com</email>
 		<icq>Freyja#7312 (Discord)</icq>
@@ -186,8 +186,8 @@
 		<email>N/A</email>
 		<icq>N/A</icq>
 		<remark>N/A</remark>
-    </member>
-    	<member id="76561198011517761" nick="SuicideKing">
+	</member>
+	<member id="76561198011517761" nick="SuicideKing">
 		<name>Ojas</name>
 		<email>N/A</email>
 		<icq>ojas_alpha1 (Skype)</icq>
@@ -209,7 +209,7 @@
 		<name>Thomas</name>
 		<email>hosts@folkarps.com</email>
 		<icq>eagle_eye_23 (Steam)</icq>
-	<remark>This mission needs more GMG...</remark>
+		<remark>This mission needs more GMG...</remark>
 	</member>
 	<member id="76561198024309753" nick="Madrak_the_Red">
 		<name>madrak_the_Red</name>
@@ -224,11 +224,11 @@
 		<remark>Folk ARPS demands land reform</remark>
 	</member>
 	<member id="76561198045563469" nick="Kasmeister">
-         <name>Łukasz</name>
-         <email>archaiczny@gmail.com</email>
-         <icq>Kasmeister</icq>
-         <remark>Pew Pew Pew.</remark>
-    </member>
+		<name>Łukasz</name>
+		<email>archaiczny@gmail.com</email>
+		<icq>Kasmeister</icq>
+		<remark>Pew Pew Pew.</remark>
+	</member>
 	<member id="76561197963348255" nick="Reppyboyo">
 		<name>Reppyboyo</name>
 		<email>N/A</email>
@@ -307,22 +307,28 @@
 		<icq>n/a</icq>
 		<remark>;0) not some yellow smiley!!</remark>
 	</member>
-    <member id="76561198314061958" nick="Stronuk">
-        <name>Stronuk</name>
-        <email>N/A</email>
-        <icq>Stronuk#7770 (Discord)</icq>
-        <remark>Do not shoot your mouth until your brain is fully loaded.</remark>
-    </member>
-    <member id="76561198086818905" nick="Vanni">
-        <name>Max</name>
-        <email>runetribe@hotmail.com</email>
-        <icq>Spyritdragon</icq>
-        <remark>Afterparty Support Committee</remark>
-    </member>
-    <member id="76561198041834344" nick="NikkoJT">
-	    <name>NikkoJT, Mission Specialist</name>
-	    <email></email>
-	    <icq>NikkoJT#6902</icq>
-	    <remark>Why are you reading this instead of watching your sector?</remark>
-    </member>
+	<member id="76561198314061958" nick="Stronuk">
+		<name>Stronuk</name>
+		<email>N/A</email>
+		<icq>Stronuk#7770 (Discord)</icq>
+		<remark>Do not shoot your mouth until your brain is fully loaded.</remark>
+	</member>
+	<member id="76561198086818905" nick="Vanni">
+		<name>Max</name>
+		<email>runetribe@hotmail.com</email>
+		<icq>Spyritdragon</icq>
+		<remark>Afterparty Support Committee</remark>
+	</member>
+	<member id="76561198041834344" nick="NikkoJT">
+		<name>NikkoJT, Mission Specialist</name>
+		<email></email>
+		<icq>NikkoJT#6902</icq>
+		<remark>Why are you reading this instead of watching your sector?</remark>
+	</member>
+	<member id="76561197991685206" nick="blip2">
+		<name>blip2</name>
+		<email>blip2@blip2.net</email>
+		<icq>blip2</icq>
+		<remark>Never unprepared</remark>
+	</member>
 </squad>
