@@ -12,7 +12,7 @@
       <div class="video-container">
         <iframe
           title="Folk ARPS Feature Video"
-          :src="'https://www.youtube.com/embed/' + 'e3ST3l1Booo' + '?rel=0'"
+          :src="'https://www.youtube.com/embed/' + 'tuhApubhvlI' + '?rel=0'"
           allowFullScreen
         ></iframe>
       </div>
