@@ -14,7 +14,7 @@ Mods listed below are not required, but can be used. You can choose to use all, 
 - [ShackTac User Interface](http://steamcommunity.com/sharedfiles/filedetails/?id=498740884) - Highly recommended for situational awareness. (Discontinued but may still be used)
 - [DUI](https://steamcommunity.com/sharedfiles/filedetails/?id=1638341685) - Modern successor to STUI. Use in place of STUI, not alongside.
 
-### Niche Utility Mods
+### Additional Optional Mods
 
 - [MRB Voice Stop](http://steamcommunity.com/sharedfiles/filedetails/?id=876991445) - Makes AI less chatty.
 - [Outlawled Mag repack](http://steamcommunity.com/sharedfiles/filedetails/?id=876991445) - Allows you to repack magazines.
