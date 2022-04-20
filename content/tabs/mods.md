@@ -18,7 +18,7 @@ Mods listed below are not required, but can be used. You can choose to use all, 
 
 - [POLPOX's Simple MapTools (FA re-sign)](https://steamcommunity.com/sharedfiles/filedetails/?id=2784014003) - Navigational tools for the map.
 - [MRB Voice Stop](http://steamcommunity.com/sharedfiles/filedetails/?id=876991445) - Makes AI less chatty.
-- [Outlawled Mag repack](http://steamcommunity.com/sharedfiles/filedetails/?id=876991445) - Allows you to repack magazines.
+- [Outlawled Mag repack](https://steamcommunity.com/sharedfiles/filedetails/?id=1593431569) - Allows you to repack magazines.
 - [Dynasound 2](http://steamcommunity.com/sharedfiles/filedetails/?id=825181638) - BOOOM, WHOOOOOSH, RATATATATATATA!!
 - [Immerse](https://steamcommunity.com/sharedfiles/filedetails/?id=825172265) - Boom shake shake rattle and roll (your view).
 - [Enhanced Soundscape](https://steamcommunity.com/sharedfiles/filedetails/?id=825179978) - Better environment-based sound simulation (best used with Dynasound 2)
