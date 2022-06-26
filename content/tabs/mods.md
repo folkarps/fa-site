@@ -11,7 +11,7 @@ Mods listed below are not required, but can be used. You can choose to use all, 
 ### Highly Recommended Mods
 
 - [Community Base Addons](http://steamcommunity.com/sharedfiles/filedetails/?id=450814997) - required for most other mods.
-- [DUI](https://steamcommunity.com/sharedfiles/filedetails/?id=1638341685) - Highly recommended for situational awareness. Modern successor to STUI. Use in place of STUI, not alongside.
+- [DUI](https://steamcommunity.com/sharedfiles/filedetails/?id=1638341685) - Highly recommended for situational awareness. (Replaces, not compatible with, STUI)
 
 ### Additional Optional Mods
 
