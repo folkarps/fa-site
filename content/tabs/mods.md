@@ -11,13 +11,13 @@ Mods listed below are not required, but can be used. You can choose to use all, 
 ### Highly Recommended Mods
 
 - [Community Base Addons](http://steamcommunity.com/sharedfiles/filedetails/?id=450814997) - required for most other mods.
-- [ShackTac User Interface](http://steamcommunity.com/sharedfiles/filedetails/?id=498740884) - Highly recommended for situational awareness. (Discontinued but may still be used)
-- [DUI](https://steamcommunity.com/sharedfiles/filedetails/?id=1638341685) - Modern successor to STUI. Use in place of STUI, not alongside.
+- [DUI](https://steamcommunity.com/sharedfiles/filedetails/?id=1638341685) - Improved situational and team awareness via informational HUD.
 
 ### Additional Optional Mods
 
 - [POLPOX's Simple MapTools (FA re-sign)](https://steamcommunity.com/sharedfiles/filedetails/?id=2784014003) - Navigational tools for the map.
 - [MRB Voice Stop](http://steamcommunity.com/sharedfiles/filedetails/?id=876991445) - Makes AI less chatty.
+- [ShackTac User Interface](http://steamcommunity.com/sharedfiles/filedetails/?id=498740884) - Predecesssor to DUI. (Discontinued but may still be used - either/or with DUI, not both)
 - [Outlawled Mag repack](https://steamcommunity.com/sharedfiles/filedetails/?id=1593431569) - Allows you to repack magazines.
 - [Dynasound 2](http://steamcommunity.com/sharedfiles/filedetails/?id=825181638) - BOOOM, WHOOOOOSH, RATATATATATATA!!
 - [Immerse](https://steamcommunity.com/sharedfiles/filedetails/?id=825172265) - Boom shake shake rattle and roll (your view).
