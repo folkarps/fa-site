@@ -11,8 +11,7 @@ Mods listed below are not required, but can be used. You can choose to use all, 
 ### Highly Recommended Mods
 
 - [Community Base Addons](http://steamcommunity.com/sharedfiles/filedetails/?id=450814997) - required for most other mods.
-- [ShackTac User Interface](http://steamcommunity.com/sharedfiles/filedetails/?id=498740884) - Highly recommended for situational awareness. (Discontinued but may still be used)
-- [DUI](https://steamcommunity.com/sharedfiles/filedetails/?id=1638341685) - Modern successor to STUI. Use in place of STUI, not alongside.
+- [DUI](https://steamcommunity.com/sharedfiles/filedetails/?id=1638341685) - Highly recommended for situational awareness. Modern successor to STUI. Use in place of STUI, not alongside.
 
 ### Additional Optional Mods
 
@@ -24,6 +23,7 @@ Mods listed below are not required, but can be used. You can choose to use all, 
 - [Enhanced Soundscape](https://steamcommunity.com/sharedfiles/filedetails/?id=825179978) - Better environment-based sound simulation (best used with Dynasound 2)
 - [Aaren's Blast Effects](https://steamcommunity.com/sharedfiles/filedetails/?id=2424322922) - Glowy tracers and more impactful impacts! Low Brightness Tracers and Non-Glowing Tracers submods also allowed.
 - [Selective Hearing](https://steamcommunity.com/sharedfiles/filedetails/?id=1240323575) - Modern version of Cyprus Push-to-Hear (use instead of not alongside)
+- [ShackTac User Interface](http://steamcommunity.com/sharedfiles/filedetails/?id=498740884) - Predecessor to DUI. Discontinued but may still be used.
 
 ### Zeus Related Mods
 
