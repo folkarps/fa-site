@@ -8,6 +8,8 @@ Mods listed below are not required, but can be used. You can choose to use all, 
 
 ## Available through Steam Workshop
 
+- [Recommended + Additional Collection](https://steamcommunity.com/sharedfiles/filedetails/?id=2855984357) - this collection contains the Recommended and Additional Optional mods listed below for easy one-click subscribing.
+
 ### Highly Recommended Mods
 
 - [Community Base Addons](http://steamcommunity.com/sharedfiles/filedetails/?id=450814997) - required for most other mods.
