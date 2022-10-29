@@ -2,10 +2,10 @@
 <!DOCTYPE squad SYSTEM "squad.dtd">
 <?xml-stylesheet href="squad.xsl?" type="text/xsl"?>
 <squad nick="FA">
-	<name>Folk ARPS (Hosts)</name>
+	<name>Folk ARPS (Commendation)</name>
 	<email>hosts@folkarps.com</email>
 	<web>www.folkarps.com</web>
-	<picture>hosts_512.paa</picture>
+	<picture>commend_512.paa</picture>
 	<title>Folk ARPS</title>
 	<member id="76561198012169975" nick="audiox">
 		<name>audiox</name>
