@@ -3,10 +3,14 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
+    "predev": "$npm_execpath run generate-squadxml",
     "dev": "nuxt",
     "build": "nuxt build --modern",
     "start": "nuxt start",
-    "generate": "nuxt generate --modern"
+    "pregenerate": "$npm_execpath run generate-squadxml",
+    "generate": "nuxt generate --modern",
+    "generate-squadxml": "node ./squadxml/generate.js -- ./static/xml3",
+    "clean": "rm -rf ./dist ./static/xml3"
   },
   "dependencies": {
     "@fontsource/roboto": "^4.5.1",

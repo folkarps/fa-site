@@ -1,18 +1,3 @@
-<?xml version="1.0"?>
-<!DOCTYPE squad SYSTEM "squad.dtd">
-<?xml-stylesheet href="squad.xsl?" type="text/xsl"?>
-<squad nick="FA">
-	<name>Folk ARPS</name>
-	<email>hosts@folkarps.com</email>
-	<web>www.folkarps.com</web>
-	<picture>pride_512.paa</picture>
-	<title>Folk ARPS</title>
-	<member id="76561198012169975" nick="audiox">
-		<name>audiox</name>
-		<email>hosts@folkarps.com</email>
-		<icq>audiox (Skype)</icq>
-		<remark>Another victory for trotskyite entrism.</remark>
-	</member>
 	<member id="76561198002563273" nick="Boberro">
 		<name>Boberro</name>
 		<email>N/A</email>
@@ -33,13 +18,13 @@
 	</member>
 	<member id="76561197972043388" nick="dancemoox">
 		<name>moon moon</name>
-		<email>N/A</email>
+		<email>dancemoox@gmail.com</email>
 		<icq>dancemoox (Skype)</icq>
 		<remark>by the power of moustache</remark>
 	</member>
 	<member id="76561197989014630" nick="Danny">
 		<name>Dannysaysnoo!</name>
-		<email>N/A</email>
+		<email>Dannysaysnoo@trioptimum.com</email>
 		<icq>Dannysaysnoo (skype)</icq>
 		<remark>[SPACE RESERVED FOR WIT]</remark>
 	</member>
@@ -69,7 +54,7 @@
 	</member>
 	<member id="76561198000622372" nick="Halop">
 		<name>Halop</name>
-		<email>N/A</email>
+		<email>Smeogorl@gmail.com</email>
 		<icq>arturrandom (Skype)</icq>
 		<remark>Suppressive fire is a sign of incompetence</remark>
 	</member>
@@ -81,19 +66,19 @@
 	</member>
 	<member id="76561197975149309" nick="Head">
 		<name>Head</name>
-		<email>N/A</email>
+		<email>headswe92@gmail.com</email>
 		<icq>Skype:headswe</icq>
 		<remark>Senior Science Officer</remark>
 	</member>
 	<member id="76561197972356731" nick="Homercleese">
 		<name>Alan</name>
-		<email>N/A</email>
+		<email>alanwelldunne@gmail.com</email>
 		<icq>homercleese_fa (Skype)</icq>
 		<remark>When you put your hand in a pile of goo that used to be your best friends face, THEN you'll know what to do!</remark>
 	</member>
 	<member id="76561198034639658" nick="m0ntag">
 		<name>m0ntag</name>
-		<email>N/A</email>
+		<email>itsm0ntag@gmail.com</email>
 		<icq>m0ntag7 (Skype)</icq>
 		<remark>A doctor AND a miracle worker.</remark>
 	</member>
@@ -105,19 +90,19 @@
 	</member>
 	<member id="76561198052129562" nick="Nothun">
 		<name>Nothun</name>
-		<email>N/A</email>
+		<email>t.sauber@yahoo.com</email>
 		<icq>thilo.sauber (Skype)</icq>
 		<remark>For Arstotzka!</remark>
 	</member>
 	<member id="76561197990191615" nick="Pr3sario">
 		<name>Callum G</name>
-		<email>N/A</email>
+		<email>hovis5818@gmail.com</email>
 		<icq>Pr3sario (Skype)</icq>
 		<remark>Be the best you can be, just don't be last</remark>
 	</member>
 	<member id="76561198011407435" nick="Satire">
 		<name>Satire</name>
-		<email>N/A</email>
+		<email>cwood686@gmail.com</email>
 		<icq>chris.wood686 (Skype)</icq>
 		<remark></remark>
 	</member>
@@ -129,7 +114,7 @@
 	</member>
 	<member id="76561198006639904" nick="Stoner">
 		<name>Rick Emery</name>
-		<email>N/A</email>
+		<email>remery@emeryloftus.com</email>
 		<icq>NA</icq>
 		<remark></remark>
 	</member>
@@ -159,27 +144,15 @@
 	</member>
 	<member id="76561197968125725" nick="Universal">
 		<name>Universal</name>
-		<email>N/A</email>
+		<email>suninahouse@yahoo.com</email>
 		<icq>N/A</icq>
 		<remark>Day man, fighter of the Night man, champion of the Sun</remark>
 	</member>
 	<member id="76561198001569480" nick="Sparks">
 		<name>Mark Dennehy</name>
-		<email>N/A</email>
+		<email>mark.dennehy+FolkARPS@gmail.com</email>
 		<icq>N/A</icq>
 		<remark>Don't tell mom I'm a pilot, she thinks I play piano in a whorehouse</remark>
-	</member>
-	<member id="76561197967886612" nick="Freyja">
-		<name>Freyja</name>
-		<email>server-fund@folkarps.com</email>
-		<icq>Freyja#7312 (Discord)</icq>
-		<remark>Alright, let's try this again.</remark>
-	</member>
-	<member id="76561198028156171" nick="Aqarius">
-		<name>Aqarius</name>
-		<email>hosts@folkarps.com</email>
-		<icq>gajic_90 (Skype)</icq>
-		<remark>Walking proudly in our winter coats.</remark>
 	</member>
 	<member id="76561198060093093" nick="Kefirz">
 		<name>Kefirz</name>
@@ -193,15 +166,9 @@
 		<icq>ojas_alpha1 (Skype)</icq>
 		<remark>Sup.</remark>
 	</member>
-	<member id="76561198057520464" nick="Mabbott">
-		<name>Megan Mabbott</name>
-		<email>N/A</email>
-		<icq>Mabbott (Steam)</icq>
-		<remark>Proud Katiba-GL fangirl</remark>
-	</member>
 	<member id="76561198038702453" nick="Boarnoah">
 		<name>Boarnoah</name>
-		<email>N/A</email>
+		<email>boarnoah@gmail.com</email>
 		<icq>boarnoah(Everything)</icq>
 		<remark>If you see a boarnoah anywhere its probably me!</remark>
 	</member>
@@ -211,12 +178,6 @@
 		<icq>eagle_eye_23 (Steam)</icq>
 		<remark>This mission needs more GMG...</remark>
 	</member>
-	<member id="76561198024309753" nick="Madrak_the_Red">
-		<name>madrak_the_Red</name>
-		<email>N/A</email>
-		<icq>madrakthered</icq>
-		<remark>Low speed high drag</remark>
-	</member>
 	<member id="76561198038164877" nick="Peasant">
 		<name>Peasant</name>
 		<email>N/A</email>
@@ -225,7 +186,7 @@
 	</member>
 	<member id="76561198045563469" nick="Kasmeister">
 		<name>Łukasz</name>
-		<email>N/A</email>
+		<email>archaiczny@gmail.com</email>
 		<icq>Kasmeister</icq>
 		<remark>Pew Pew Pew.</remark>
 	</member>
@@ -249,25 +210,25 @@
 	</member>
 	<member id="76561197974729809" nick="darkcaves">
 		<name>DarkCaves</name>
-		<email>N/A</email>
+		<email>admin@asodc.com</email>
 		<icq>N/A</icq>
 		<remark>Zehn zahme Ziegen zogen zehn Zentner Zucker zum Zwickauer Zoo.</remark>
 	</member>
 	<member id="76561198024976441" nick="Pedro">
 		<name>Pedro</name>
-		<email>N/A</email>
+		<email>opportunity@makemoneyfast.com</email>
 		<icq>pfigpt (Skype)</icq>
 		<remark>For great justice</remark>
 	</member>
 	<member id="76561198026539571" nick="Spanks Masterson">
 		<name>Spanks Masterson</name>
-		<email>N/A</email>
+		<email>spanks.masterson@gmail.com</email>
 		<icq></icq>
 		<remark>Hell, I’ll [REDACTED] a [REDACTED] only when I’m gettin paid.</remark>
 	</member>
 	<member id="76561198015438903" nick="Zenzos">
 		<name>Zenzos</name>
-		<email>N/A</email>
+		<email>vinzenzk@gmail.com</email>
 		<icq>Zenzos(steam)</icq>
 		<remark>Come with me if you want to die</remark>
 	</member>
@@ -279,7 +240,7 @@
 	</member>
 	<member id="76561197997372227" nick="Lavernius Regalis">
 		<name>Lavernius Regalis</name>
-		<email>N/A</email>
+		<email>lavernius.regalis@gmail.com</email>
 		<icq>djregalis</icq>
 		<remark>Normally people would put something clever here</remark>
 	</member>
@@ -289,15 +250,9 @@
 		<icq>N/A</icq>
 		<remark>IT'S NOT PRONOUNCED SEE-RAN OR SYRIAN</remark>
 	</member>
-	<member id="76561198011821851" nick="Lexer">
-		<name>Lexer</name>
-		<email>hosts@folkarps.com</email>
-		<icq>Lexer#0375 (Discord)</icq>
-		<remark>Ask and you shall receive</remark>
-	</member>
 	<member id="76561198013702572" nick="Cattonia">
 		<name>Cattonia</name>
-		<email>N/A</email>
+		<email>cattonia6@gmail.com</email>
 		<icq>cattonia6 (Skype)</icq>
 		<remark>I'm not actually a cat person I swear</remark>
 	</member>
@@ -315,20 +270,7 @@
 	</member>
 	<member id="76561198086818905" nick="Vanni">
 		<name>Vanni</name>
-		<email>N/A</email>
+		<email>runetribe@hotmail.com</email>
 		<icq>Spyritdragon</icq>
 		<remark>Resident Tubeman and Afterparty Enthusiast</remark>
 	</member>
-	<member id="76561198041834344" nick="NikkoJT">
-		<name>NikkoJT, Mission Specialist</name>
-		<email></email>
-		<icq>NikkoJT#6902</icq>
-		<remark>Why are you reading this instead of watching your sector?</remark>
-	</member>
-	<member id="76561197991685206" nick="blip2">
-		<name>blip2</name>
-		<email>N/A</email>
-		<icq>blip2</icq>
-		<remark>Never unprepared</remark>
-	</member>
-</squad>

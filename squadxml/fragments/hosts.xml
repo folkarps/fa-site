@@ -1,12 +1,3 @@
-<?xml version="1.0"?>
-<!DOCTYPE squad SYSTEM "squad.dtd">
-<?xml-stylesheet href="squad.xsl?" type="text/xsl"?>
-<squad nick="FA">
-	<name>Folk ARPS (Hosts)</name>
-	<email>hosts@folkarps.com</email>
-	<web>www.folkarps.com</web>
-	<picture>hosts_512.paa</picture>
-	<title>Folk ARPS</title>
 	<member id="76561198012169975" nick="audiox">
 		<name>audiox</name>
 		<email>hosts@folkarps.com</email>
@@ -91,4 +82,3 @@
 		<icq>Lord Palmzia#5239</icq>
 		<remark>MY LEGS!</remark>
 	</member>
-</squad>
