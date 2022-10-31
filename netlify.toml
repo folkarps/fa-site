@@ -1,3 +1,10 @@
+[build]
+command = "npm run generate"
+
+[dev]
+command = "npm run dev"
+targetPort = 8080
+
 [[redirects]]
 force = true
 from = "/forum"
