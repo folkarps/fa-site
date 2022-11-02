@@ -8,5 +8,5 @@
 	<picture>fak_512.paa</picture>
 	<title>Folk ARPS</title>
     <!-- INCLUDE hosts.xml -->
-    <!-- INCLUDE guests.xml -->
+    <!-- INCLUDE fak.xml -->
 </squad>
