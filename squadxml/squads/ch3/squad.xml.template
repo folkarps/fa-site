@@ -8,5 +8,5 @@
 	<picture>ch3_512.paa</picture>
 	<title>Folk ARPS</title>
     <!-- INCLUDE hosts.xml -->
-    <!-- INCLUDE guests.xml -->
+    <!-- INCLUDE ch3.xml -->
 </squad>

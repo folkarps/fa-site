@@ -5,8 +5,8 @@
 	<name>Folk ARPS</name>
 	<email>hosts@folkarps.com</email>
 	<web>www.folkarps.com</web>
-	<picture>fak_512.paa</picture>
+	<picture>sub_512.paa</picture>
 	<title>Folk ARPS</title>
     <!-- INCLUDE hosts.xml -->
-    <!-- INCLUDE fak.xml -->
+    <!-- INCLUDE sub.xml -->
 </squad>

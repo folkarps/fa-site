@@ -8,5 +8,5 @@
 	<picture>tank_512.paa</picture>
 	<title>Folk ARPS</title>
     <!-- INCLUDE hosts.xml -->
-    <!-- INCLUDE guests.xml -->
+    <!-- INCLUDE tank.xml -->
 </squad>
