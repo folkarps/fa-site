@@ -21,6 +21,7 @@ Mods listed below are not required, but can be used. You can choose to use all, 
 - [MRB Voice Stop](http://steamcommunity.com/sharedfiles/filedetails/?id=876991445) - Makes AI less chatty.
 - [Outlawled Mag repack](https://steamcommunity.com/sharedfiles/filedetails/?id=1593431569) - Allows you to repack magazines.
 - [Dynasound 2](http://steamcommunity.com/sharedfiles/filedetails/?id=825181638) - BOOOM, WHOOOOOSH, RATATATATATATA!!
+- [CSLA Weapon Sound Improver](https://steamcommunity.com/sharedfiles/filedetails/?id=2886449650) - Expands Dynasound 2 to work with CSLA. Can ONLY be used at Cold War CDLC special sessions, NOT main sessions.
 - [Immerse](https://steamcommunity.com/sharedfiles/filedetails/?id=825172265) - Boom shake shake rattle and roll (your view).
 - [Enhanced Soundscape](https://steamcommunity.com/sharedfiles/filedetails/?id=825179978) - Better environment-based sound simulation (best used with Dynasound 2)
 - [Aaren's Blast Effects](https://steamcommunity.com/sharedfiles/filedetails/?id=2424322922) - Glowy tracers and more impactful impacts! Non-Glowing Tracers submod also allowed.
