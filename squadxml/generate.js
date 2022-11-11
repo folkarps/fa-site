@@ -1,77 +1,77 @@
 /*
-Script to build squad.xml files at build time for static serving
+Script to build squad.xml files at build time for static serving using a YAML format to define the squads
 
 Directory layout
-* fragments - fragments of squad.xml files (usually members lists) that can be included in final squad.xml files
+* images - contains insignia PAA and PNG files, one directory per squad
 * resources - files that are copied into each final squad directory e.g. css, dtd, xsl, etc.
-* squads - actual squads to generate squad.xmls for
-** each directory contains:
-*** a paa file, the ingame squad insignia
-*** sqd_logo.png - PNG version of paa file to show in web browser
-*** squad.xml.template - partial squad.xml file which fragments will be inserted into
+* squads.yaml - defines actual squads to generate squad.xmls for
 
-Add a new squad by creating a new directory under squads, adding the insignia in paa & PNG format, and a squad.xml.template file
+Add a new squad by creating a new entry in squads.yaml, creating images/$SQUAD_NAME, and adding the insignia in paa & PNG format to that directory
 */
 
 const fs = require("fs");
+const YAML = require('yaml');
 const path = require('path');
 
-const squadsDir = "./squadxml/squads";
-const resourcesDir = "./squadxml/resources"
-const fragmentsDir = "./squadxml/fragments"
+const squadxmlDir = "./squadxml";
+const yamlPath = `${squadxmlDir}/squads.yaml`;
+const imagesDir = `${squadxmlDir}/images`;
+const resourcesDir = `${squadxmlDir}/resources`;
 const outputDir = process.argv[3];
 
-const resources = fs.readdirSync(path.join(resourcesDir));
+function renderMemberElement(member) {
+  return `        <member id="${member.id}" nick="${member.nick}">
+                <name>${member.name || 'N/A'}</name>
+                <email>${member.email || 'N/A'}</email>
+                <icq>${member.icq || 'N/A'}</icq>
+                <remark>${member.remark || 'N/A'}</remark>
+        </member>
+`;
+};
 
-const fragmentFiles = fs.readdirSync(path.join(fragmentsDir));
-var fragments = {};
-fragmentFiles.forEach(f => {
-  fragments[f] = fs.readFileSync(path.join(fragmentsDir, f));
-});
+function renderSquadXML(squad, members) {
+  const membersBlock = members.map(renderMemberElement).join('');
+  return `<?xml version="1.0"?>
+<!DOCTYPE squad SYSTEM "squad.dtd">
+<?xml-stylesheet href="squad.xsl?" type="text/xsl"?>
+<squad nick="${squad.nick}">
+        <name>${squad.name}</name>
+        <email>${squad.email}</email>
+        <web>${squad.web}</web>
+        <picture>${squad.picture}</picture>
+        <title>${squad.title}</title>
+${membersBlock.trimRight()}
+</squad>
+`;
+};
 
-console.log("Creating output directory: " + outputDir);
+// intAsBigInt to preserve Steam IDs
+const config = YAML.parse(fs.readFileSync(yamlPath, 'utf8'), { intAsBigInt: true });
+
+console.log(`Creating output directory: ${outputDir}`);
 fs.mkdirSync(outputDir);
 
-const squads = fs.readdirSync(squadsDir);
-squads.forEach(squad => {
-  var processing = path.join(squadsDir, squad);
-  var squadOutDir = path.join(outputDir, squad);
-  console.log("Processing " + processing + " => " + squadOutDir);
+Object.keys(config.squads).forEach(squadName => {
+  const squadOutDir = path.join(outputDir, squadName);
+  console.log(`Processing ${squadName} => ${squadOutDir}`);
+
+  const squad = config.squads[squadName];
+  var membersInSquad = [];
+  if(squad.allMembers) {
+    membersInSquad = config.members;
+  } else {
+    membersInSquad = config.members.filter(m => m.isHost || m.squads.includes(squadName));
+  };
+
+  const squadXML = renderSquadXML(squad, membersInSquad);
 
   fs.mkdirSync(squadOutDir);
-
-  // Copy all files in resources dir
-  resources.forEach(res => {
-    fs.copyFileSync(path.join(resourcesDir, res), path.join(squadOutDir, res));
-  });
-
-  // Shallow copy squad files, populating .template files with fragments
-  const squadFiles = fs.readdirSync(processing);
-  squadFiles.forEach(f => {
-    if(f.endsWith(".template")) {
-      var template = fs.readFileSync(path.join(processing, f));
-      content = template + "";
-
-      Object.entries(fragments).forEach(e => {
-        var name = e[0];
-        var v = (e[1] + "").trim();
-        var includePattern = new RegExp(`<!--\\s+INCLUDE\\s+${name}\\s+-->`, "ig");
-        content = content.replace(includePattern, v);
-      });
-
-      fs.writeFileSync(path.join(squadOutDir, f.replace(".template", "")), content);
-    } else {
-      fs.copyFileSync(path.join(processing, f), path.join(squadOutDir, f));
-    }
-  });
+  fs.writeFileSync(path.join(squadOutDir, "squad.xml"), squadXML);
+  fs.cpSync(resourcesDir, squadOutDir, {recursive:true});
+  fs.cpSync(path.join(imagesDir, squadName), squadOutDir, {recursive:true});
 });
 
-// Special handling for default squad, copy output into root output directory as well
-if(fs.existsSync(path.join(outputDir, "default"))) {
-  console.log("Special handling for default squad");
+if (config.rootSquad) {
+  fs.cpSync(path.join(outputDir, config.rootSquad), outputDir, {recursive:true});
+};
 
-  const defaultSquadFiles = fs.readdirSync(path.join(outputDir, "default"));
-  defaultSquadFiles.forEach(f => {
-    fs.copyFileSync(path.join(outputDir, "default", f), path.join(outputDir, f));
-  });
-}
