@@ -1,0 +1,512 @@
+# Squad available without name e.g. xml3/squad.xml
+# Useful if we want to temporarily change for an event, etc., without actually modifying the squads themselves
+rootSquad: default
+
+squads:
+#  template:
+#    name: Squad Name
+#    nick: Squad nick (inside [] ingame)
+#    email: Squad email
+#    web: Squad web address
+#    picture: Name of insignia PAA in images/$NAME (e.g. images/template)
+#    title: Title when squad.xml viewed in web brower
+#    allMembers: true # <- everyone added to squad automatically. false or ommited to use members[].squads list
+  ace:
+    name: Folk ARPS
+    nick: FA
+    email: hosts@folkarps.com
+    web: www.folkarps.com
+    picture: ace_512.paa
+    title: Folk ARPS
+  anniv:
+    name: Folk ARPS
+    nick: FA
+    email: hosts@folkarps.com
+    web: www.folkarps.com
+    picture: anniv_512.paa
+    title: Folk ARPS
+    allMembers: true
+  armogus:
+    name: Folk ARPS
+    nick: FA
+    email: hosts@folkarps.com
+    web: www.folkarps.com
+    picture: armogus_512.paa
+    title: Folk ARPS
+  ch3:
+    name: Folk ARPS
+    nick: FA
+    email: hosts@folkarps.com
+    web: www.folkarps.com
+    picture: ch3_512.paa
+    title: Folk ARPS
+  coldwar:
+    name: Folk ARPS
+    nick: FA
+    email: hosts@folkarps.com
+    web: www.folkarps.com
+    picture: coldwar_512.paa
+    title: Folk ARPS
+  commend:
+    name: Folk ARPS (Commendation)
+    nick: FA
+    email: hosts@folkarps.com
+    web: www.folkarps.com
+    picture: commend_512.paa
+    title: Folk ARPS
+  default:
+    name: Folk ARPS
+    nick: FA
+    email: hosts@folkarps.com
+    web: www.folkarps.com
+    picture: fa_2015_512.paa
+    title: Folk ARPS
+    allMembers: true
+  fak:
+    name: Folk ARPS
+    nick: FA
+    email: hosts@folkarps.com
+    web: www.folkarps.com
+    picture: fak_512.paa
+    title: Folk ARPS
+  hosts:
+    name: Folk ARPS (Hosts)
+    nick: FA
+    email: hosts@folkarps.com
+    web: www.folkarps.com
+    picture: hosts_512.paa
+    title: Folk ARPS
+  para:
+    name: Folk ARPS
+    nick: FA
+    email: hosts@folkarps.com
+    web: www.folkarps.com
+    picture: para_512.paa
+    title: Folk ARPS
+  pilot:
+    name: Folk ARPS
+    nick: FA
+    email: hosts@folkarps.com
+    web: www.folkarps.com
+    picture: pilot_512.paa
+    title: Folk ARPS
+  pride:
+    name: Folk ARPS
+    nick: FA
+    email: hosts@folkarps.com
+    web: www.folkarps.com
+    picture: pride_512.paa
+    title: Folk ARPS
+    allMembers: true
+  rasputin:
+    name: Folk ARPS
+    nick: FA
+    email: hosts@folkarps.com
+    web: www.folkarps.com
+    picture: rasputin_512.paa
+    title: Folk ARPS
+  rpg:
+    name: Folk ARPS
+    nick: FA
+    email: hosts@folkarps.com
+    web: www.folkarps.com
+    picture: rpg_512.paa
+    title: Folk ARPS
+  safety:
+    name: Folk ARPS
+    nick: FA
+    email: hosts@folkarps.com
+    web: www.folkarps.com
+    picture: safety_512.paa
+    title: Folk ARPS
+  spacing:
+    name: Folk ARPS
+    nick: FA
+    email: hosts@folkarps.com
+    web: www.folkarps.com
+    picture: spacing_512.paa
+    title: Folk ARPS
+  sub:
+    name: Folk ARPS
+    nick: FA
+    email: hosts@folkarps.com
+    web: www.folkarps.com
+    picture: sub_512.paa
+    title: Folk ARPS
+  tank:
+    name: Folk ARPS
+    nick: FA
+    email: hosts@folkarps.com
+    web: www.folkarps.com
+    picture: tank_512.paa
+    title: Folk ARPS
+
+members:
+# Template
+#  - id: 123456789
+#    nick: Ingame nick
+#    name: Ingame name, IRL name, whatever
+#    email: hosts@folkarps.com, or omit to get N/A automatically
+#    icq: ICQ or other messaging handle (e.g. Discord). Omit to get N/A automatically
+#    remark: Remark shown in game. Omit to get N/A automatically
+#    isHost: true # <- automatically add to all squads. Omit if not true
+#    squads: ["a", "b"] # <- names of squads they are member of excluding allMembers == true squads. Omit if isHost == true.
+  - id: 76561198012169975
+    nick: audiox
+    name: audiox
+    email: hosts@folkarps.com
+    icq: audiox (Skype)
+    remark: Another victory for trotskyite entrism.
+    isHost: true
+  - id: 76561197967886612
+    nick: Freyja
+    name: Freyja
+    email: server-fund@folkarps.com
+    icq: Freyja#7312 (Discord)
+    remark: Alright, let's try this again.
+    isHost: true
+  - id: 76561198028156171
+    nick: Aqarius
+    name: Aqarius
+    email: hosts@folkarps.com
+    icq: gajic_90 (Skype)
+    remark: Walking proudly in our winter coats.
+    isHost: true
+  - id: 76561198057520464
+    nick: Mabbott
+    name: Megan Mabbott
+    email: hosts@folkarps.com
+    icq: Mabbott (Steam)
+    remark: Proud Katiba-GL fangirl
+    isHost: true
+  - id: 76561198024309753
+    nick: Madrak_the_Red
+    name: madrak_the_Red
+    email: hosts@folkarps.com
+    icq: madrakthered
+    remark: Low speed high drag
+    isHost: true
+  - id: 76561198011821851
+    nick: Lexer
+    name: Lexer
+    email: hosts@folkarps.com
+    icq: Lexer#0375 (Discord)
+    remark: Ask and you shall receive
+    isHost: true
+  - id: 76561198041834344
+    nick: NikkoJT
+    name: NikkoJT, Mission Specialist
+    email: hosts@folkarps.com
+    icq: NikkoJT#6902
+    remark: Why are you reading this instead of watching your sector?
+    isHost: true
+  - id: 76561197991685206
+    nick: blip2
+    name: blip2
+    email: hosts@folkarps.com
+    icq: blip2
+    remark: Never unprepared
+    isHost: true
+  - id: 76561198070138516
+    nick: Costno
+    name: Costno
+    email: hosts@folkarps.com
+    icq: Costno#7306
+    remark: Diesel Baked, reporting in.
+    isHost: true
+  - id: 76561198019820925
+    nick: Hund
+    name: Hundenal
+    email: hosts@folkarps.com
+    icq: Hundenal#3117
+    remark: The real Hund.
+    isHost: true
+  - id: 76561197996276181
+    nick: Flying
+    name: Flying
+    email: hosts@folkarps.com
+    icq: Flying#0686
+    remark: "Don't worry, it'll be fine."
+    isHost: true
+  - id: 76561197989940416
+    nick: Pooter
+    name: Pooter
+    email: hosts@folkarps.com
+    icq: Pooter#7054
+    remark: Got magazines?
+    isHost: true
+  - id: 76561197970354151
+    nick: Teifiterror
+    name: Teifiterror
+    email: hosts@folkarps.com
+    icq: Teifiterror#4945
+    remark: "*car horn*"
+    isHost: true
+  - id: 76561198202074189
+    nick: Lord Palmzia
+    name: Lord Palmzia
+    email: hosts@folkarps.com
+    icq: Lord Palmzia#5239
+    remark: MY LEGS!
+    isHost: true
+  - id: 76561198002563273
+    nick: Boberro
+    name: Boberro
+    remark: Mista body massage machine, GO!
+    squads: []
+  - id: 76561197970308881
+    nick: Bodge
+    name: Bodge
+    email: hosts@folkarps.com
+    icq: bodgemonkey (Skype)
+    remark: Tired bear is tired
+    squads: []
+  - id: 76561198026525029
+    nick: Comrade Roe
+    name: Comrade Roe
+    icq: Comrade Roe (skype)
+    remark: Cannon fodder at the ready!
+    squads: []
+  - id: 76561197972043388
+    nick: dancemoox
+    name: moon moon
+    icq: dancemoox (Skype)
+    remark: by the power of moustache
+    squads: []
+  - id: 76561197989014630
+    nick: Danny
+    name: Dannysaysnoo!
+    icq: Dannysaysnoo (skype)
+    remark: "[SPACE RESERVED FOR WIT]"
+    squads: []
+  - id: 76561197982783374
+    nick: Dr. Quack MD
+    name: Dr. Quack MD
+    remark: Relax, I'm (possibly) a doctor
+    squads: []
+  - id: 76561197975964276
+    nick: Fer
+    name: Fer
+    email: hosts@folkarps.com
+    icq: ferstaberinde (Skype)
+    remark: For a socialist agrarian utopia!
+    squads: []
+  - id: 76561198052356610
+    nick: Rachel
+    name: Rachel
+    remark: Attack those enemy buildings!
+    squads: []
+  - id: 76561198008231270
+    nick: Grizzly
+    name: Joshua
+    remark: If you patrol the woods, you are in for a surprise today.
+    squads: []
+  - id: 76561198000622372
+    nick: Halop
+    name: Halop
+    icq: arturrandom (Skype)
+    remark: Suppressive fire is a sign of incompetence
+    squads: []
+  - id: 76561197990253366
+    nick: harakka
+    name: harakka
+    email: hosts@folkarps.com
+    icq: harakka_fi (Skype)
+    remark: "I'm not here to win any beauty contests - I'm here to kill people, on a budget."
+    squads: []
+  - id: 76561197975149309
+    nick: Head
+    name: Head
+    icq: Skype:headswe
+    remark: Senior Science Officer
+    squads: []
+  - id: 76561197972356731
+    nick: Homercleese
+    name: Alan
+    icq: homercleese_fa (Skype)
+    remark: When you put your hand in a pile of goo that used to be your best friends face, THEN you'll know what to do!
+    squads: []
+  - id: 76561198034639658
+    nick: m0ntag
+    name: m0ntag
+    icq: m0ntag7 (Skype)
+    remark: A doctor AND a miracle worker.
+    squads: []
+  - id: 76561198012388711
+    nick: Mrkev
+    name: Mrkev
+    icq: fiercekpierce (skype)
+    remark: "so chiggidy-check yo'self before you Kev yo'self"
+    squads: []
+  - id: 76561198052129562
+    nick: Nothun
+    name: Nothun
+    icq: thilo.sauber (Skype)
+    remark: For Arstotzka!
+    squads: []
+  - id: 76561197990191615
+    nick: Pr3sario
+    name: Callum G
+    icq: Pr3sario (Skype)
+    remark: Be the best you can be, just don't be last
+    squads: []
+  - id: 76561198011407435
+    nick: Satire
+    name: Satire
+    icq: chris.wood686 (Skype)
+    squads: []
+  - id: 76561197991278130
+    nick: SuperU
+    name: SuperU
+    email: hosts@folkarps.com
+    icq: willheath_1991 (Skype)
+    remark: Let formation meat shield commence
+    squads: []
+  - id: 76561198006639904
+    nick: Stoner
+    name: Rick Emery
+    squads: []
+  - id: 76561197963776883
+    nick: Syrion
+    name: Blake Hyde
+    icq: syrion8 (Skype)
+    remark: The more, the gloriouser!
+    squads: []
+  - id: 76561198023121251
+    nick: Whoracle
+    name: Whoracle
+    remark: I am but a mere morsel of a larger meal
+    squads: []
+  - id: 76561198012648163
+    nick: Wolfenswan
+    name: Wolfenswan
+    email: hosts@folkarps.com
+    icq: helazoid (skype)
+    remark: Kein Spass im Spiel
+    squads: []
+  - id: 76561197978479707
+    nick: Pickers
+    name: Pickers
+    icq: pickers_
+    remark: Assume tactical blob formation!
+    squads: []
+  - id: 76561197968125725
+    nick: Universal
+    name: Universal
+    remark: Day man, fighter of the Night man, champion of the Sun
+    squads: []
+  - id: 76561198001569480
+    nick: Sparks
+    name: Mark Dennehy
+    remark: "Don't tell mom I'm a pilot, she thinks I play piano in a whorehouse"
+    squads: []
+  - id: 76561198060093093
+    nick: Kefirz
+    name: Kefirz
+    squads: []
+  - id: 76561198011517761
+    nick: SuicideKing
+    name: Ojas
+    icq: ojas_alpha1 (Skype)
+    remark: Sup.
+    squads: []
+  - id: 76561198038702453
+    nick: Boarnoah
+    name: Boarnoah
+    icq: boarnoah(Everything)
+    remark: If you see a boarnoah anywhere its probably me!
+    squads: []
+  - id: 76561198038419783
+    nick: Eagle_Eye
+    name: Thomas
+    email: hosts@folkarps.com
+    icq: eagle_eye_23 (Steam)
+    remark: This mission needs more GMG...
+    squads: []
+  - id: 76561198038164877
+    nick: Peasant
+    name: Peasant
+    remark: Folk ARPS demands land reform
+    squads: []
+  - id: 76561198045563469
+    nick: Kasmeister
+    name: Łukasz
+    icq: Kasmeister
+    remark: Pew Pew Pew.
+    squads: []
+  - id: 76561197963348255
+    nick: Reppyboyo
+    name: Reppyboyo
+    remark: Occasionally I shoot things.
+    squads: []
+  - id: 76561198042058365
+    nick: Jacob
+    name: Jacob
+    remark: "If I'm not dead I'll die trying"
+    squads: []
+  - id: 76561198045428892
+    nick: Shado
+    name: Shado
+    remark: I have no idea what's going on
+    squads: []
+  - id: 76561197974729809
+    nick: darkcaves
+    name: DarkCaves
+    remark: Zehn zahme Ziegen zogen zehn Zentner Zucker zum Zwickauer Zoo.
+    squads: []
+  - id: 76561198024976441
+    nick: Pedro
+    name: Pedro
+    icq: pfigpt (Skype)
+    remark: For great justice
+    squads: []
+  - id: 76561198026539571
+    nick: Spanks Masterson
+    name: Spanks Masterson
+    remark: Hell, I’ll [REDACTED] a [REDACTED] only when I’m gettin paid.
+    squads: []
+  - id: 76561198015438903
+    nick: Zenzos
+    name: Zenzos
+    icq: Zenzos(steam)
+    remark: Come with me if you want to die
+    squads: []
+  - id: 76561197992154495
+    nick: stonie
+    name: Stonie
+    remark: Not sure if enemy, friendly or tree.
+    squads: []
+  - id: 76561197997372227
+    nick: Lavernius Regalis
+    name: Lavernius Regalis
+    icq: djregalis
+    remark: Normally people would put something clever here
+    squads: []
+  - id: 76561198139791883
+    nick: Ciaran
+    name: Not See-ran or Syrian
+    remark: IT'S NOT PRONOUNCED SEE-RAN OR SYRIAN
+    squads: []
+  - id: 76561198013702572
+    nick: Cattonia
+    name: Cattonia
+    icq: cattonia6 (Skype)
+    remark: I'm not actually a cat person I swear
+    squads: []
+  - id: 76561197974756605
+    nick: Machiya
+    name: Gary
+    remark: ;0) not some yellow smiley!!
+    squads: []
+  - id: 76561198314061958
+    nick: Stronuk
+    name: Stronuk
+    icq: Stronuk#7770 (Discord)
+    remark: Do not shoot your mouth until your brain is fully loaded.
+    squads: []
+  - id: 76561198086818905
+    nick: Vanni
+    name: Vanni
+    icq: Spyritdragon
+    remark: Resident Tubeman and Afterparty Enthusiast
+    squads: []
