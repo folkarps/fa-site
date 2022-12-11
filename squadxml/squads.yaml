@@ -59,7 +59,7 @@ squads:
     nick: FA
     email: hosts@folkarps.com
     web: www.folkarps.com
-    picture: fa_2015_512.paa
+    picture: default_512.paa
     title: Folk ARPS
     allMembers: true
   fak:
