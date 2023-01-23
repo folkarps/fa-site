@@ -58,6 +58,13 @@ squads:
     web: www.folkarps.com
     picture: commend_512.paa
     title: Folk ARPS
+  cone:
+    name: Folk ARPS
+    nick: FA
+    email: hosts@folkarps.com
+    web: www.folkarps.com
+    picture: cone_512.paa
+    title: Folk ARPS
   default:
     name: Folk ARPS
     nick: FA
