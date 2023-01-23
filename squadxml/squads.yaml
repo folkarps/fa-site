@@ -65,6 +65,7 @@ squads:
     web: www.folkarps.com
     picture: cone_512.paa
     title: Folk ARPS
+    allMembers: true
   default:
     name: Folk ARPS
     nick: FA
