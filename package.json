@@ -9,7 +9,7 @@
     "start": "nuxt start",
     "pregenerate": "$npm_execpath run generate-squadxml",
     "generate": "nuxt generate --modern",
-    "generate-squadxml": "node ./squadxml/generate.js -- ./static/xml3",
+    "generate-squadxml": "node ./squadxml/generate.js -- ./static/xml3 ./netlify/edge-functions/patch-of-the-day.js",
     "clean": "rm -rf ./dist ./static/xml3"
   },
   "dependencies": {
