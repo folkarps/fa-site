@@ -1,5 +1,6 @@
 /*
 Script to build squad.xml files at build time for static serving using a YAML format to define the squads
+Also handles the build time injection of variables for the POTD edge function
 
 Directory layout
 * images - contains insignia PAA and PNG files, one directory per squad
@@ -18,6 +19,7 @@ const yamlPath = `${squadxmlDir}/squads.yaml`;
 const imagesDir = `${squadxmlDir}/images`;
 const resourcesDir = `${squadxmlDir}/resources`;
 const outputDir = process.argv[3];
+const potdFuncFile = process.argv[4];
 
 function renderMemberElement(member) {
   return `        <member id="${member.id}" nick="${member.nick}">
@@ -51,6 +53,11 @@ const config = YAML.parse(fs.readFileSync(yamlPath, 'utf8'), { intAsBigInt: true
 console.log(`Creating output directory: ${outputDir}`);
 fs.mkdirSync(outputDir);
 
+const potdFuncConfig = {
+  paaFilePaths: {},
+  membersAllowedSquads: {'allMembers': []}
+};
+
 Object.keys(config.squads).forEach(squadName => {
   const squadOutDir = path.join(outputDir, squadName);
   console.log(`Processing ${squadName} => ${squadOutDir}`);
@@ -69,9 +76,21 @@ Object.keys(config.squads).forEach(squadName => {
   fs.writeFileSync(path.join(squadOutDir, "squad.xml"), squadXML);
   fs.cpSync(resourcesDir, squadOutDir, {recursive:true});
   fs.cpSync(path.join(imagesDir, squadName), squadOutDir, {recursive:true});
+
+  potdFuncConfig.paaFilePaths[squad.picture] = `/xml3/${squadName}/${squad.picture}`;
+  membersInSquad.forEach((m) => {
+    if(!potdFuncConfig.membersAllowedSquads[m.id]) {
+      potdFuncConfig.membersAllowedSquads[m.id] = [];
+    }
+    potdFuncConfig.membersAllowedSquads[m.id].push(squadName);
+  });
+  if(squad.allMembers) {
+    potdFuncConfig.membersAllowedSquads['allMembers'].push(squadName);
+  }
 });
 
 if (config.rootSquad) {
   fs.cpSync(path.join(outputDir, config.rootSquad), outputDir, {recursive:true});
 };
 
+fs.appendFileSync(potdFuncFile, "\nconst injectedConfig = " + JSON.stringify(potdFuncConfig) + ";\n");
