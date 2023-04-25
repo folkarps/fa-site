@@ -51,27 +51,3 @@ async function hash(s) {
 }
 
 // \/\/\/ Config from squad.yaml will be injected here at build time as injectedConfig \/\/\/
-
-// TODO - delete from server
-/*
-<?php
-declare(strict_types=1);
-
-if (filter_input(INPUT_SERVER, 'REQUEST_METHOD') !== 'GET') {
-    http_response_code(405);
-    return;
-}
-
-$squads_string = filter_var($_GET['squads'], FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_LOW | FILTER_FLAG_STRIP_HIGH);
-$id = filter_var($_GET['id'], FILTER_SANITIZE_STRING, FILTER_FLAG_STRIP_LOW | FILTER_FLAG_STRIP_HIGH);
-
-$seed = intval(floor(time()/86400) + crc32($id));
-srand($seed);
-
-$squads = explode(',', $squads_string);
-$random_squad = urlencode($squads[array_rand($squads)]);
-
-header("Location: https://folkarps.com/xml3/$random_squad/squad.xml", true, 302);
-exit;
-*/
-
