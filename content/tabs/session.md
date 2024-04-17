@@ -6,8 +6,8 @@ title: 'Session'
 
 Folk ARPS Arma 3 sessions are held every Sunday at 19:20 UK time.
 
-In order to attend, you will need a legitimate copy of Arma 3, and [Teamspeak 3](/teamspeak). That’s it!
-We also strongly recommend the Apex and Contact DLCs for Arma 3. You can still come to session without those expansions, but you may have to sit out some missions because of restrictions around the Tanoa and Livonia maps.
+In order to attend, you will need a legitimate copy of Arma 3, and [Teamspeak 3](/teamspeak). You'll also need the Western Sahara and Reaction Forces CDLCs for Arma 3, or their free compatibility packs ( [WS](https://steamcommunity.com/sharedfiles/filedetails/?id=2636962953) / [RF](https://steamcommunity.com/sharedfiles/filedetails/?id=3150497912) ) That’s it!
+We also strongly recommend the Apex and Contact DLCs for Arma 3. You can still come to session without those expansions, but you may have to sit out some missions because of restrictions around the Tanoa and Livonia maps. Similarly, if you don't have Western Sahara, the Sefrou-Ramal map won't be available.
 
 While we have some [optional mods](/mods), FA sessions don’t require any mods to attend. This policy has served us well in ensuring a low-friction, accessible experience for the last decade.
 

@@ -4,6 +4,11 @@ title: 'Optional Mods'
 
 # Tools to assist you in the revolution
 
+If you do not have the Western Sahara and Reaction Forces CDLCs, you'll need to install their free compatibility packs and load them as mods.
+
+- [Western Saraha compat pack](https://steamcommunity.com/sharedfiles/filedetails/?id=2636962953)
+- [Reaction Forces compat pack](https://steamcommunity.com/sharedfiles/filedetails/?id=3150497912)
+
 Mods listed below are not required, but can be used. You can choose to use all, some, or none of them. Mods not listed below cannot be used, as the server runs a whitelist, and will not let you connect.
 
 ## Available through Steam Workshop
