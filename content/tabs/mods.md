@@ -28,7 +28,7 @@ Mods listed below are not required, but can be used. You can choose to use all, 
 - [Dynasound 2](http://steamcommunity.com/sharedfiles/filedetails/?id=825181638) - BOOOM, WHOOOOOSH, RATATATATATATA!!
 - [CSLA Weapon Sound Improver](https://steamcommunity.com/sharedfiles/filedetails/?id=2886449650) - Expands Dynasound 2 to work with CSLA. Can ONLY be used at Cold War CDLC special sessions, NOT main sessions.
 - [Immerse](https://steamcommunity.com/sharedfiles/filedetails/?id=825172265) - Boom shake shake rattle and roll (your view).
-- [Enhanced Soundscape](https://steamcommunity.com/sharedfiles/filedetails/?id=825179978) - Better environment-based sound simulation (best used with Dynasound 2)
+- [Enhanced Soundscape](https://steamcommunity.com/sharedfiles/filedetails/?id=825179978) / [Plus](https://steamcommunity.com/sharedfiles/filedetails/?id=2938312887) - Better environment-based sound simulation (best used with Dynasound 2)
 - [Aaren's Blast Effects](https://steamcommunity.com/sharedfiles/filedetails/?id=2424322922) - Glowy tracers and more impactful impacts! Non-Glowing Tracers submod also allowed.
 - [Selective Hearing](https://steamcommunity.com/sharedfiles/filedetails/?id=1240323575) - Modern version of Cyprus Push-to-Hear (use instead of not alongside)
 - [ShackTac User Interface](http://steamcommunity.com/sharedfiles/filedetails/?id=498740884) - Predecessor to DUI. Discontinued but may still be used.
